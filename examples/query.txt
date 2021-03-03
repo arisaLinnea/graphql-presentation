@@ -1,0 +1,40 @@
+{
+  users {
+    id
+  }
+}
+
+1. operation type query
+
+2. Alias   myAlias: users
+
+3. Operation name   getUsers
+
+query getUser{
+   user(name: "ivey"){
+    id
+    login
+  }
+}
+
+Parameters: Testa ett anrop med fler user.
+
+query getUser($name: String){
+   user(name: $name){
+    id
+    login
+  }
+}
+
+mojombo
+ivey
+
+
+default:   
+
+query getUser($name: String = "ivey"){
+   user(name: $name){
+    id
+    login
+  }
+}

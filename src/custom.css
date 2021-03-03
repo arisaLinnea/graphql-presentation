@@ -1,0 +1,20 @@
+.reveal code {
+  max-height: 80vh !important;
+}
+
+.reveal pre {
+  max-height: 90% !important;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.reveal .slides > section > section {
+  text-align: left;
+}
+
+.boldText {
+    color: CornflowerBlue;
+}

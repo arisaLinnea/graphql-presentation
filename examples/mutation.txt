@@ -1,0 +1,14 @@
+Kolla doc-tabben
+
+1. 
+
+mutation Login($email: String) {
+  login(email: $email)
+}
+
+=> null     vi har missat ange email
+
+2. 
+
+{ "email": "me@example.com" }
+
