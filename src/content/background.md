@@ -12,6 +12,19 @@ GraphQL servers are available for multiple languages, including Haskell, JavaScr
 
 ---
 
+## GraphQL and REST
+
+Even though there are other alternatives too (SOAP, Falcor, gRPC etc), most of us have only heard of REST or GrapghQL. But what are the differences between those two? 
+
+GrapghQL have one endpoint and you send a query specifying what you want to retrieve. Different applications could go towards the same endpoint and get different data back.
+It's good when you want a collection of data from different places. Really good for multiple microservices and mobile apps.
+
+REST have several endpoint and returns a fixed dataobject. In many applications you might need to do more API calls for the same amount of data that one graphQL call would give.
+REST is suitable for smaller apps and might be better at complex quieries. REST if often easier to learn than GraphQL.
+
+
+---
+
 <table>
     <thead>
         <tr>
