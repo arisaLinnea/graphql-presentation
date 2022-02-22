@@ -45,9 +45,6 @@ module.exports = {
               name: 'content/[name].[ext]',
             },
           },
-          {
-            loader: path.resolve('src/markdown-loader.js')
-          },
         ]
       }
     ]
