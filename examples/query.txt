@@ -19,7 +19,7 @@ query getUser{
 
 Parameters: Testa ett anrop med fler user.
 
-query getUser($name: String){
+query getUser($name: String){           // kommer klaga på att det behöver String!
    user(name: $name){
     id
     login

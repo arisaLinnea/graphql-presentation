@@ -420,8 +420,6 @@ type Mutation {
 }
 ```
 
-https://apollo-fullstack-tutorial.herokuapp.com/
-
 ---
 
 ## Subscription
